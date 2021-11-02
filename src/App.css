@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.warpper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currency {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.price {
+  margin-bottom: 40px;
+}
+
+select {
+  cursor: pointer;
+  word-wrap: break-word;
+  line-height: 1em;
+  white-space: normal;
+  outline: 0;
+  transform: rotateZ(0);
+  min-width: 14em;
+  min-height: 2.71428571em;
+  background: #fff;
+  display: inline-block;
+  padding: .78571429em 2.1em .78571429em 1em;
+  color: rgba(0,0,0,.87);
+  box-shadow: none;
+  border: 1px solid rgba(34,36,38,.15);
+  border-radius: .28571429rem;
+  transition: box-shadow .1s ease,width .1s ease;
+  margin-bottom: 20px;
+}
+
+select option {
+  width: auto;
+  padding: .78571429em 2.1em .78571429em 1em;
+  outline: 0;
+  margin: 0 -1px;
+  min-width: calc(100% + 2px);
+  width: calc(100% + 2px);
+  border-radius: 0 0 .28571429rem .28571429rem;
+  box-shadow: 0 2px 3px 0 rgb(34 36 38 / 15%);
+  transition: opacity .1s ease;
+}
+
+.card {
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  min-height: 0;
+  padding: 18px;
+  text-align: left;
+  border: none;
+  border-radius: .28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  transition: box-shadow .1s ease,transform .1s ease;
+}
+
+.chart {
+  width: 1500px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .chart {
+    width: 400px;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .chart {
+    width: 610px;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .chart {
+    width: 800px;
+    height: 120px;
+  }
+} 
